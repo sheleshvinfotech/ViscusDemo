@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AC22AB714C1940000A07FDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC22AB614C1940000A07FDB /* UIKit.framework */; };
+		4AC22AB914C1940000A07FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC22AB814C1940000A07FDB /* Foundation.framework */; };
+		4AC22ABB14C1940000A07FDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC22ABA14C1940000A07FDB /* CoreGraphics.framework */; };
+		4AC22AC114C1940000A07FDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AC22ABF14C1940000A07FDB /* InfoPlist.strings */; };
+		4AC22AC314C1940000A07FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC22AC214C1940000A07FDB /* main.m */; };
+		4AC22AC714C1940000A07FDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC22AC614C1940000A07FDB /* AppDelegate.m */; };
+		4AC22ACA14C1940000A07FDB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC22AC814C1940000A07FDB /* MainStoryboard.storyboard */; };
+		4AC22ACD14C1940000A07FDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC22ACC14C1940000A07FDB /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AC22AB214C1940000A07FDB /* ViscusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViscusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC22AB614C1940000A07FDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AC22AB814C1940000A07FDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AC22ABA14C1940000A07FDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AC22ABE14C1940000A07FDB /* ViscusDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViscusDemo-Info.plist"; sourceTree = "<group>"; };
+		4AC22AC014C1940000A07FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AC22AC214C1940000A07FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AC22AC414C1940000A07FDB /* ViscusDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViscusDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4AC22AC514C1940000A07FDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AC22AC614C1940000A07FDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AC22AC914C1940000A07FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4AC22ACB14C1940000A07FDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AC22ACC14C1940000A07FDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC22AAF14C1940000A07FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC22AB714C1940000A07FDB /* UIKit.framework in Frameworks */,
+				4AC22AB914C1940000A07FDB /* Foundation.framework in Frameworks */,
+				4AC22ABB14C1940000A07FDB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC22AA714C1940000A07FDB = {
+			isa = PBXGroup;
+			children = (
+				4AC22ABC14C1940000A07FDB /* ViscusDemo */,
+				4AC22AB514C1940000A07FDB /* Frameworks */,
+				4AC22AB314C1940000A07FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC22AB314C1940000A07FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC22AB214C1940000A07FDB /* ViscusDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC22AB514C1940000A07FDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AC22AB614C1940000A07FDB /* UIKit.framework */,
+				4AC22AB814C1940000A07FDB /* Foundation.framework */,
+				4AC22ABA14C1940000A07FDB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AC22ABC14C1940000A07FDB /* ViscusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4AC22AC514C1940000A07FDB /* AppDelegate.h */,
+				4AC22AC614C1940000A07FDB /* AppDelegate.m */,
+				4AC22AC814C1940000A07FDB /* MainStoryboard.storyboard */,
+				4AC22ACB14C1940000A07FDB /* ViewController.h */,
+				4AC22ACC14C1940000A07FDB /* ViewController.m */,
+				4AC22ABD14C1940000A07FDB /* Supporting Files */,
+			);
+			path = ViscusDemo;
+			sourceTree = "<group>";
+		};
+		4AC22ABD14C1940000A07FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AC22ABE14C1940000A07FDB /* ViscusDemo-Info.plist */,
+				4AC22ABF14C1940000A07FDB /* InfoPlist.strings */,
+				4AC22AC214C1940000A07FDB /* main.m */,
+				4AC22AC414C1940000A07FDB /* ViscusDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC22AB114C1940000A07FDB /* ViscusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC22AD014C1940000A07FDB /* Build configuration list for PBXNativeTarget "ViscusDemo" */;
+			buildPhases = (
+				4AC22AAE14C1940000A07FDB /* Sources */,
+				4AC22AAF14C1940000A07FDB /* Frameworks */,
+				4AC22AB014C1940000A07FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViscusDemo;
+			productName = ViscusDemo;
+			productReference = 4AC22AB214C1940000A07FDB /* ViscusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC22AA914C1940000A07FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4AC22AAC14C1940000A07FDB /* Build configuration list for PBXProject "ViscusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AC22AA714C1940000A07FDB;
+			productRefGroup = 4AC22AB314C1940000A07FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC22AB114C1940000A07FDB /* ViscusDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AC22AB014C1940000A07FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC22AC114C1940000A07FDB /* InfoPlist.strings in Resources */,
+				4AC22ACA14C1940000A07FDB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC22AAE14C1940000A07FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC22AC314C1940000A07FDB /* main.m in Sources */,
+				4AC22AC714C1940000A07FDB /* AppDelegate.m in Sources */,
+				4AC22ACD14C1940000A07FDB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AC22ABF14C1940000A07FDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC22AC014C1940000A07FDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4AC22AC814C1940000A07FDB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC22AC914C1940000A07FDB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AC22ACE14C1940000A07FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AC22ACF14C1940000A07FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC22AD114C1940000A07FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViscusDemo/ViscusDemo-Prefix.pch";
+				INFOPLIST_FILE = "ViscusDemo/ViscusDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4AC22AD214C1940000A07FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViscusDemo/ViscusDemo-Prefix.pch";
+				INFOPLIST_FILE = "ViscusDemo/ViscusDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC22AAC14C1940000A07FDB /* Build configuration list for PBXProject "ViscusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC22ACE14C1940000A07FDB /* Debug */,
+				4AC22ACF14C1940000A07FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC22AD014C1940000A07FDB /* Build configuration list for PBXNativeTarget "ViscusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC22AD114C1940000A07FDB /* Debug */,
+				4AC22AD214C1940000A07FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AC22AA914C1940000A07FDB /* Project object */;
+}
